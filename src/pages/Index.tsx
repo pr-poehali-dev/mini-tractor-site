@@ -329,7 +329,7 @@ const Index = () => {
                 <CardTitle className="text-white">Высокая мощность</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-300">Двигатели от 25 до 45 л.с. с оптимальным расходом топлива</p>
+                <p className="text-gray-300"></p>
               </CardContent>
             </Card>
             <Card className="bg-slate-700/50 border-blue-500/20 hover-scale">
@@ -338,7 +338,7 @@ const Index = () => {
                 <CardTitle className="text-white">Надежность</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-300">Гарантия 3 года, сервисное обслуживание по всей России</p>
+                <p className="text-gray-300"></p>
               </CardContent>
             </Card>
           </div>

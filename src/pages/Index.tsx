@@ -85,23 +85,23 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-teal-900 to-slate-800">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-slate-900/95 backdrop-blur-sm border-b border-blue-500/20 z-50">
+      <nav className="fixed top-0 w-full bg-slate-900/95 backdrop-blur-sm border-b border-teal-500/20 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <Icon name="Tractor" size={32} className="text-blue-400" />
+            <Icon name="Tractor" size={32} className="text-teal-400" />
             <span className="text-2xl font-bold text-white">TechTractor</span>
           </div>
           <div className="hidden md:flex space-x-8">
-            <a href="#home" className="text-gray-300 hover:text-blue-400 transition-colors">Главная</a>
-            <a href="#catalog" className="text-gray-300 hover:text-blue-400 transition-colors">Каталог</a>
-            <a href="#services" className="text-gray-300 hover:text-blue-400 transition-colors">Услуги</a>
-            <a href="#contacts" className="text-gray-300 hover:text-blue-400 transition-colors">Контакты</a>
+            <a href="#home" className="text-gray-300 hover:text-teal-400 transition-colors">Главная</a>
+            <a href="#catalog" className="text-gray-300 hover:text-teal-400 transition-colors">Каталог</a>
+            <a href="#services" className="text-gray-300 hover:text-teal-400 transition-colors">Услуги</a>
+            <a href="#contacts" className="text-gray-300 hover:text-teal-400 transition-colors">Контакты</a>
           </div>
           <Dialog>
             <DialogTrigger asChild>
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white">
+              <Button className="bg-teal-600 hover:bg-teal-700 text-white">
                 Записаться на сервис
               </Button>
             </DialogTrigger>
@@ -202,13 +202,13 @@ const Index = () => {
           <div className="max-w-4xl mx-auto">
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in">
               Мини-тракторы
-              <span className="text-blue-400 block">будущего</span>
+              <span className="text-teal-400 block">будущего</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 animate-fade-in">
               Высокотехнологичная сельскохозяйственная техника с умными системами управления
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg animate-scale-in">
+              <Button size="lg" className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-4 text-lg animate-scale-in">
                 <Icon name="Zap" size={20} className="mr-2" />
                 Смотреть каталог
               </Button>

@@ -91,7 +91,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Icon name="Tractor" size={32} className="text-teal-400" />
-            <span className="text-2xl font-bold text-white">TechTractor</span>
+            <span className="font-bold text-white text-2xl">Стальной краб</span>
           </div>
           <div className="hidden md:flex space-x-8">
             <a href="#home" className="text-gray-300 hover:text-teal-400 transition-colors">Главная</a>

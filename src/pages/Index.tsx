@@ -317,10 +317,10 @@ const Index = () => {
             <Card className="bg-slate-700/50 border-blue-500/20 hover-scale">
               <CardHeader>
                 <Icon name="Cpu" size={48} className="text-blue-400 mb-4" />
-                <CardTitle className="text-white">Умные системы</CardTitle>
+                <CardTitle className="text-white">Маневренность и  мобильность</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-300">ИИ-навигация, автопилот и система мониторинга параметров в реальном врем</p>
+                <p className="text-gray-300"></p>
               </CardContent>
             </Card>
             <Card className="bg-slate-700/50 border-blue-500/20 hover-scale">

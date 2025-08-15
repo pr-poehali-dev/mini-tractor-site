@@ -320,7 +320,7 @@ const Index = () => {
                 <CardTitle className="text-white">Умные системы</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-300">ИИ-навигация, автопилот и система мониторинга параметров в реальном времени</p>
+                <p className="text-gray-300">ИИ-навигация, автопилот и система мониторинга параметров в реальном врем</p>
               </CardContent>
             </Card>
             <Card className="bg-slate-700/50 border-blue-500/20 hover-scale">
